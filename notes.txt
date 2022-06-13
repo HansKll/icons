@@ -1,0 +1,24 @@
+Logo
+search bar general
+sign in, language, cart
+-----
+navigation (maybe dont need)
+--------
+cover
+------
+store profile and contact
+---------
+announcement
+------------
+LEFT-SIDE:
+search bar for store items
+contact
+
+RIGHT-SIDE:
+product cards (img, name, price)
+---------
+reviews
+--------------
+about
+----------------
+footer
