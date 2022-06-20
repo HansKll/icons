@@ -26,6 +26,8 @@ div {
 @media only screen and (max-width: 1400px) {
 	.main-container {
 		width: auto;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 }
 
@@ -45,12 +47,17 @@ div {
 .header-item {
 }
 
+.logo {
+	color: black;
+	font-size: 40px;
+
+}
+
 .search-bar {
 	display: flex;
 	flex-grow: 1;
 	align-items: center;
 	justify-content: center;
-
 }
 
 .search-bar input {
@@ -60,10 +67,37 @@ div {
 	border: 2px solid black;
 }
 
-.logo {
-	color: black;
-	font-size: 40px;
+.account-bar {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding-left: 50px;
+	padding-right: 50px;
+}
 
+.account-bar-item {
+	padding: 0px 15px 0px 15px;
+}
+
+@media only screen and (max-width: 792px) {
+	
+	.header-container {
+		justify-content: flex-start;
+	}
+
+	.search-bar {
+		flex: 0 0 100%;
+		order: 2;
+	}
+
+	.search-bar input {
+		width: 100%;
+	}
+
+	.account-bar {
+		padding: 0px;
+		padding-left: 50px;
+	}
 }
 
 .nav-container {
@@ -83,19 +117,6 @@ div {
 .nav-container > li {
 	text-decoration: none;
 	margin: 0px 120px 0px 0px;
-}
-
-.account-bar {
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-	padding-left: 50px;
-	padding-right: 50px;
-
-}
-
-.account-bar-item {
-	padding: 0px 15px 0px 15px;
 }
 
 a {
