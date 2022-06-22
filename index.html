@@ -11,6 +11,42 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+    <nav role="navigation" class="nav-hamburger">
+            <div id="menuToggle">
+              <!--
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
+              <input type="checkbox" />
+              
+              <!--
+              Some spans to act as a hamburger.
+              
+              They are acting like a real hamburger,
+              not that McDonalds stuff.
+              -->
+              <span></span>
+              <span></span>
+              <span></span>
+              
+              <!--
+              Too bad the menu has to be inside of the button
+              but hey, it's pure CSS magic.
+              -->
+              <ul id="menu">
+                <a href="#"><li>Top icons</li></a>
+                <a href="#"><li>iPhone icons</li></a>
+                <a href="#"><li>Android icons</li></a>
+                <a href="#"><li>Other</li></a>
+                <a href="#"><li>Make a gift</li></a>
+                <hr>
+                <a href="#"><li>Sign in</li></a>
+                <a href="#"><li>Lang</li></a>
+                <a href="#"><li>Account</li></a>
+                <a href="#"><li>Cart</li></a>
+              </ul>
+            </div>
+          </nav>
     <div class="main-container">
       <div class="main-item">
         <header>
@@ -30,6 +66,7 @@
               <div class="account-bar-item">Cart</div>
             </div>
           </div>
+          
         </header>
         <nav>
           <ul class="nav-container">
